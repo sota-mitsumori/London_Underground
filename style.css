@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+.disruption {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.station-name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.disrupted-lifts {
+    color: #d9534f;
+    font-weight: bold;
+}
+.message {
+    margin-top: 5px;
+}
