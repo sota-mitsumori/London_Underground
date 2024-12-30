@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>London Underground Lift Disruptions</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>TfL Station Arrivals</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<h1>London Underground Lift Disruptions</h1>
-<div id="disruptions-container"></div>
+<h1>Victoria Line Train Arrivals</h1>
+<!-- Dropdown for Station Selection -->
+<label for="station-select">Select Station:</label>
+<select id="station-select">
+    <!-- Options will be populated dynamically -->
+</select>
+<div id="last-updated">Last Updated: --:--:--</div>
+<table id="arrivals-table">
+    <thead>
+    <tr>
+        <th>Vehicle ID</th>
+        <th>Line</th>
+        <th>Platform</th>
+        <th>Direction</th>
+        <th>Destination</th>
+        <th>Expected Arrival</th>
+        <th>Time to Station (min)</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Data will be populated here -->
+    </tbody>
+</table>
+<div id="error-message"></div>
 
 <script src="script.js"></script>
 </body>
