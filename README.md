@@ -7,3 +7,9 @@ The train status is updated every minute.
 
 Available at: <br>
 https://sota-mitsumori.github.io/London_Underground/
+
+
+## Future plans
+
+Make information available for more London Underground lines.
+Display informations other than train services. 
